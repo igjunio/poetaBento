@@ -13,9 +13,11 @@ var enderecoAtual = window.location.href;
 // Função para redirecionar para uma página aleatória
 function abrirPaginaAleatoria() {
   const paginaAleatoria = paginas[Math.floor(Math.random() * paginas.length)];
-  if(enderecoAtual === 'https://igjunio.github.io/poetaBento'){
+  if(enderecoAtual === 'https://igjunio.github.io/poetaBento/'){
     window.location.href = `poesia/${paginaAleatoria}`;
   }else if (enderecoAtual === 'https://igjunio.github.io/poetaBento/index.html'){
+    window.location.href = `poesia/${paginaAleatoria}`;
+  }else if (enderecoAtual === 'https://igjunio.github.io/poetaBento/#'){
     window.location.href = `poesia/${paginaAleatoria}`;
   }else{
     window.location.href = `${paginaAleatoria}`;
