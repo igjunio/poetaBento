@@ -14,7 +14,6 @@ function abrirPaginaAleatoria() {
   window.location.href = `poesia/${paginaAleatoria}`;
 }
 
-console.log('O valor é: ' + window.location.href);
-
 // Event listener para o botão
 document.getElementById('btnPaginaAleatoria').addEventListener('click', abrirPaginaAleatoria);
+window.location.href = `/`;
