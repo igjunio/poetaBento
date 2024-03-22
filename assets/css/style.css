@@ -786,6 +786,23 @@ section {
   padding: 0;
 }
 
+#portfolio-details .social-links {
+  margin: 5px 10px 5px 0;
+}
+
+#portfolio-details .social-links a {
+  font-size: 26px;
+  display: inline-block;
+  color: #45505b;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+#portfolio-details .social-links a:hover {
+  color: #6C63FF;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -917,6 +934,33 @@ section {
 
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
+}
+
+/*--------------------------------------------------------------
+# Seção para compartilhar o poema
+--------------------------------------------------------------*/
+
+.perfil-img {
+  width: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin: 0 auto;
+}
+
+@media (max-width: 720px) {
+  .perfil-img {
+    display: none;
+  }
+}
+
+.compartilhe-poema {
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.compartilhe-poema h5{
+  padding: 10px 0 10px 0;
+  margin: 0 auto;
 }
 
 /*--------------------------------------------------------------
