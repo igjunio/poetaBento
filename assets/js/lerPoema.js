@@ -11,7 +11,7 @@ const paginas = [
 // Função para redirecionar para uma página aleatória
 function abrirPaginaAleatoria() {
   const paginaAleatoria = paginas[Math.floor(Math.random() * paginas.length)];
-  window.location.href = `igjunio.github.io/poetaBento/poesia/${paginaAleatoria}`;
+  window.location.href = `poesia/${paginaAleatoria}`;
 }
 
 // Event listener para o botão
