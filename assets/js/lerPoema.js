@@ -4,7 +4,9 @@ const paginas = [
   'bunker.html',
   'calabouco.html',
   'janine.html',
-  'muaythai.html'
+  'muaythai.html',
+  'barracao.html',
+  'reforma.html'
   // Adicione mais páginas conforme necessário
 ];
 
