@@ -6,7 +6,8 @@ const paginas = [
   'janine.html',
   'muaythai.html',
   'barracao.html',
-  'reforma.html'
+  'reforma.html',
+  'musica.html'
   // Adicione mais páginas conforme necessário
 ];
 
