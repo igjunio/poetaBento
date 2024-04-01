@@ -11,6 +11,8 @@ const paginas = [
   // Adicione mais páginas conforme necessário
 ]; 
 
+var enderecoAtual = window.location.href;
+
 // Função para redirecionar para uma página aleatória
 function abrirPaginaAleatoria() {
   const paginaAleatoria = paginas[Math.floor(Math.random() * paginas.length)];
