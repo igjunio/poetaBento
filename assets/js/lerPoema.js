@@ -16,13 +16,13 @@ var enderecoAtual = window.location.href;
 // Função para redirecionar para uma página aleatória
 function abrirPaginaAleatoria() {
   const paginaAleatoria = paginas[Math.floor(Math.random() * paginas.length)];
-  if (enderecoAtual === "https://poetabento.com.br/poetaBento/") {
+  if (enderecoAtual === "https://poetabento.com.br/") {
     window.location.href = `poesia/${paginaAleatoria}`;
-  } else if (enderecoAtual === "https://poetabento.com.br/poetaBento/index.html") {
+  } else if (enderecoAtual === "https://poetabento.com.br/index.html") {
     window.location.href = `poesia/${paginaAleatoria}`
-  } else if (enderecoAtual === "https://poetabento.com.br/poetaBento/#") {
+  } else if (enderecoAtual === "https://poetabento.com.br/#") {
     window.location.href = `poesia/${paginaAleatoria}`
-  } else if (enderecoAtual === "https://poetabento.com.br/poetaBento") {
+  } else if (enderecoAtual === "https://poetabento.com.br") {
     window.location.href = `poesia/${paginaAleatoria}`
   } else {
     window.location.href = `${paginaAleatoria}`;
