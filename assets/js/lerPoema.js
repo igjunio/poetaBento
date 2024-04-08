@@ -7,7 +7,9 @@ const paginas = [
   'muaythai',
   'barracao',
   'reforma',
-  'musica'
+  'musica',
+  'devaneio',
+  'maioridade'
   // Adicione mais páginas conforme necessário
 ]; 
 
