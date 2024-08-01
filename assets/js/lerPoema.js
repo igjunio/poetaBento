@@ -1,15 +1,18 @@
 // Lista de páginas disponíveis
 const paginas = [
-  'arrependimento',
-  'bunker',
   'calabouco',
   'janine',
-  'muaythai',
   'barracao',
-  'reforma',
-  'musica',
-  'devaneio',
-  'maioridade'
+  'eu',
+  'like',
+  'brasilidade',
+  'redencao',
+  'inexoravel',
+  'momentos',
+  'enlace',
+  'baila',
+  'liberdade',
+  'rodizio'
   // Adicione mais páginas conforme necessário
 ]; 
 
