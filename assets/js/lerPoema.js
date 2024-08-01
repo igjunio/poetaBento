@@ -12,7 +12,19 @@ const paginas = [
   'enlace',
   'baila',
   'liberdade',
-  'rodizio'
+  'rodizio',
+  'bacharel',
+  'rapadura',
+  'louvor',
+  'cliche',
+  'renascimento',
+  'cacada',
+  'po',
+  'ressurgir',
+  'revoada',
+  'sereia',
+  'solidao',
+  'translacao'
   // Adicione mais páginas conforme necessário
 ]; 
 
